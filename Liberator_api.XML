@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Liberator_api</name>
+    </assembly>
+    <members>
+        <member name="T:core.pip">
+            <summary>
+             Picture in picture class definition
+            </summary>
+        </member>
+        <member name="T:Liberator.core">
+            <summary>
+            Core class definition
+            </summary>
+        </member>
+        <member name="M:Liberator.core.SetOption(System.String,System.String)">
+            <summary>
+            Set options
+            </summary>
+            <param name="key">The key to change the value of</param>
+            <param name="value">The value to apply to the key</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="api_options_schema"
+    targetNamespace="http://library.mugfoundation.com/api_options_schema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://library.mugfoundation.com/api_options_schema.xsd"
+    xmlns:mstns="http://library.mugfoundation.com/api_options_schema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="opt" type="confKey" />
+
+  <xs:complexType name="confKey">
+    <xs:attribute name="key" type="xs:string" />
+    <xs:attribute name="value" type="xs:string" />
+    <xs:attribute name="overwrite" type="xs:boolean" default="false"/>
+  </xs:complexType>
+</xs:schema>
